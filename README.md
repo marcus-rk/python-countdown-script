@@ -41,7 +41,12 @@ cd python-countdown-script
 chmod +x countdown.py
 ```
 
-### 4. Test the Command
+### 4. Move the Python script to /usr/local/bin
+```sh
+sudo mv countdown.py /usr/local/bin/countdown
+```
+
+### 5. Test the Command
 ```sh
 countdown
 ```

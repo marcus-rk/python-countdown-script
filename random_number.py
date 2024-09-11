@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
-# Print random number between 69-420 (inclusive)
-import random
-print(f'your random number is: {random.randint(69,420)}')
+# Prints a countdown from 3 to 1
+import datetime
+for i in range(3, 0, -1):
+  print(i)
+  time.sleep(1)
+print("Blast off!🔥")
